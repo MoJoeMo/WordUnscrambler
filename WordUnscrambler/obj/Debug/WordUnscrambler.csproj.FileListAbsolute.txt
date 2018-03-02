@@ -1,1 +1,5 @@
 E:\VSProjects\WordUnscrambler\WordUnscrambler\bin\Debug\WordUnscrambler.exe.config
+E:\VSProjects\WordUnscrambler\WordUnscrambler\bin\Debug\WordUnscrambler.exe
+E:\VSProjects\WordUnscrambler\WordUnscrambler\bin\Debug\WordUnscrambler.pdb
+E:\VSProjects\WordUnscrambler\WordUnscrambler\obj\Debug\WordUnscrambler.exe
+E:\VSProjects\WordUnscrambler\WordUnscrambler\obj\Debug\WordUnscrambler.pdb
