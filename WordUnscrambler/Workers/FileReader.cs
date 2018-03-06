@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
 namespace WordUnscrambler.Workers
 {
@@ -10,7 +7,16 @@ namespace WordUnscrambler.Workers
     {
         public string[] Read(string fileName)
         {
-            throw new NotImplementedException();
+            string[] fileContent;
+            try
+            {
+                fileContent = File.ReadAllLines(fileName);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error in FileReader.Read(): {0}", ex);
+            }
+            return fileContent;
         }
     }
 }
